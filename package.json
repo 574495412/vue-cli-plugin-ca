@@ -1,0 +1,26 @@
+{
+  "name": "vue-cli-plugin-ca",
+  "version": "1.0.0",
+  "description": "element-ui plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "ca-b2b"
+  ],
+  "author": "Chrise",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
