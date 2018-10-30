@@ -3,8 +3,8 @@ const localeList = ['af-ZA', 'ar', 'bg', 'ca', 'cs-CZ', 'da', 'de', 'ee', 'el', 
 module.exports = [
   {
     type: 'confirm',
-    name: 'scssTheme',
-    message: 'Use scss theme?'
+    name: 'lessTheme',
+    message: 'Use less theme?'
   },
   {
     type: 'list',

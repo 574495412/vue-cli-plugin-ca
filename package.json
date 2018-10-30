@@ -1,23 +1,29 @@
 {
   "name": "vue-cli-plugin-ca",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "element-ui plugin for vue-cli",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/574495412/vue-cli-plugin-ca.git"
   },
   "keywords": [
+    "element",
+    "element-ui",
+    "vux",
+    "axios",
     "vue",
+    "vue-cli",
+    "plugin",
     "cli",
     "ca-b2b"
   ],
   "author": "Chrise",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/574495412/vue-cli-plugin-ca/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/574495412/vue-cli-plugin-ca#readme",
   "publishConfig": {
     "access": "public"
   },
