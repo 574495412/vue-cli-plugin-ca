@@ -2,7 +2,7 @@
 
 Element-ui plugin for vue-cli
 
-A full Vue Cli 3 template,support element-ui, vux and axios.etc
+A full Vue Cli 3 template,support element-ui, vuex and axios.etc
 
 # Infos
 

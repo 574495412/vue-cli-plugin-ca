@@ -6,7 +6,7 @@ module.exports = (api, options, rootOptions) => {
     api.extendPackage({
         dependencies: {
             'element-ui': '^2.4.5',
-            'vux': '^2.9.2',
+            "vuex": "^3.0.1",
             'vue-meta': '^1.5.4',
             "store": "^2.0.12",
             "js-md5": "^0.7.3",
@@ -30,14 +30,12 @@ module.exports = (api, options, rootOptions) => {
             'less-loader': '^4.1.0',
             'vue-loader': '14.2.3',
             'vue-template-compiler': '^2.5.17',
-            'vux-loader': '^1.2.9'
         }
     })
     // 2. 在main.js中添加引入文件
     const mainfile = 'src/main.js'
     api.injectImports(mainfile, `import './plugins/element.js'`)
     api.injectImports(mainfile, `import './plugins/axios.js'`)
-    api.injectImports(mainfile, `import './plugins/vux.js'`)
     api.injectImports(mainfile, `import '@/assets/fonts/iconfont.js'`)
 
     // 3. 添加/更新模板文件
@@ -60,11 +58,9 @@ module.exports = (api, options, rootOptions) => {
         './src/layouts/MobileLayout.vue': './templates/src/layouts/MobileLayout.vue',
         './src/plugins/element.js': './templates/src/plugins/element.js',
         './src/plugins/axios.js': './templates/src/plugins/axios.js',
-        './src/plugins/vux.js': './templates/src/plugins/vux.js',
         './src/router/index.js': './templates/src/router/index.js',
         './src/store/mutation-types.js': './templates/src/store/mutation-types.js',
         './src/store/index.js': './templates/src/store/index.js',
-        './src/store/modules/vux.js': './templates/src/store/modules/vux.js',
         './src/utils/StoreUtils.js': './templates/src/utils/StoreUtils.js'
     }, options)
 
