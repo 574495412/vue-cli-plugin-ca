@@ -29,11 +29,11 @@ const router = new Router({
     routes: routes
 })
 
-router.beforeEach((to, from, next) => {
-})
-// 拦截器用于所有的路径请求后的操作
-router.afterEach((to, from, next) => {
+// router.beforeEach((to, from, next) => {
+// })
+// // 拦截器用于所有的路径请求后的操作
+// router.afterEach((to, from, next) => {
 
-})
+// })
 
 export default router

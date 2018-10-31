@@ -65,13 +65,18 @@
     font-family: Arial, Helvetica, Tahoma, Arial, "Microsoft Yahei";
     background-color: #f2f3f7; // padding: 30px 0;
     width: 100%;
+    height: 100%;
   }
 
   .main {
-    background-color: #f2f3f7; //
+    background-color: #f2f3f7;
     padding: 30px 0;
-    color: aquamarine;
-    font-size: 20px;
+    color: #333;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .footer-container {
     text-align: center
   }
 
