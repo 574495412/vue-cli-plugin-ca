@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-ca",
-  "version": "1.0.2",
-  "description": "element-ui plugin for vue-cli",
+  "version": "1.1.1",
+  "description": "A full Vue Cli 3 template,support element-ui, vuex and axios.etc",
   "main": "index.js",
   "repository": {
     "type": "git",

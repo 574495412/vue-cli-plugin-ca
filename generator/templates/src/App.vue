@@ -17,7 +17,7 @@
         name: 'App',
         metaInfo: {
             // if no subcomponents specify a metaInfo.HeaderTitle, this HeaderTitle will be used
-            title: 'Vue-Walter模板项目',
+            title: 'Vue-cli-ca',
             // all titles will be injected into this template
             titleTemplate: '%s'
         },

@@ -45,7 +45,7 @@ module.exports = api => {
         deleteDuplicatedFiles(callback) {
             const routerfile = api.resolve('./src/router.js')
             const storefile = api.resolve('./src/store.js')
-            const helloworldfile = api.resolve('./src/components/HelloWorld.vue')
+            const helloworldfile = api.resolve('./src/views/HelloWorld.vue')
             const aboutfile = api.resolve('./src/views/About.vue')
             if (fs.existsSync(routerfile)) {
                 fs.unlinkSync(routerfile)
