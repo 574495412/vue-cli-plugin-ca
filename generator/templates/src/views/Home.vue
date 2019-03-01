@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="main full-container">
-      <h3>中非网前端架构</h3>
+      <h3>vue前端架构</h3>
       <a href="https://github.com/574495412/vue-cli-plugin-ca#readme" target="_blank" rel="noopener">vue-cli-plugin-ca</a>.
     </div>
     <!--footer-->
